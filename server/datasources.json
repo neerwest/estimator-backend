@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "MongoDataSource": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "EstimatorDB",
+    "password": "abc123",
+    "name": "MongoDataSource",
+    "user": "EstimatorAdmin",
+    "connector": "mongodb"
+  }
+}
