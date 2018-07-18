@@ -1,0 +1,53 @@
+{
+  "name": "Project",
+  "plural": "projects",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "created_at": {
+      "type": "date",
+      "required": true
+    },
+    "version": {
+      "type": "string",
+      "required": true
+    },
+    "admin": {
+      "type": "string",
+      "required": true
+    },
+    "billing_model": {
+      "type": "string",
+      "required": true
+    },
+    "review_date": {
+      "type": "date"
+    },
+    "project_start": {
+      "type": "date"
+    },
+    "project_end": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "client": {
+      "type": "belongsTo",
+      "model": "Client",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

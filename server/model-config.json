@@ -38,5 +38,9 @@
   "Client": {
     "dataSource": "MongoDataSource",
     "public": true
+  },
+  "Project": {
+    "dataSource": "MongoDataSource",
+    "public": true
   }
 }
