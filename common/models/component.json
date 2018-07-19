@@ -41,7 +41,21 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "project": {
+      "type": "belongsTo",
+      "model": "Project",
+      "foreignKey": ""
+    },
+    "teams": {
+      "type": "hasMany",
+      "model": "Team",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
