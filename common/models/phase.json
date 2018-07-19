@@ -1,0 +1,45 @@
+{
+  "name": "Phase",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "notes": {
+      "type": "string"
+    },
+    "breakdown_perc_dev": {
+      "type": "number",
+      "required": true
+    },
+    "total_hours": {
+      "type": "number",
+      "required": true
+    },
+    "padding": {
+      "type": "number",
+      "required": true
+    },
+    "phi": {
+      "type": "number",
+      "required": true
+    },
+    "margin": {
+      "type": "number",
+      "required": true
+    },
+    "margin_hours": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

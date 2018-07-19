@@ -1,0 +1,47 @@
+{
+  "name": "Component",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "estimate_assumptions_notes": {
+      "type": "string",
+      "required": true
+    },
+    "complexity": {
+      "type": "number",
+      "required": true
+    },
+    "analysis_and_design_hours": {
+      "type": "number",
+      "required": true
+    },
+    "development_hours": {
+      "type": "number",
+      "required": true
+    },
+    "cost_per_hour": {
+      "type": "number",
+      "required": true
+    },
+    "father_component": {
+      "type": "string"
+    },
+    "sprint": {
+      "type": "string"
+    },
+    "dev": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
