@@ -6,7 +6,7 @@
   "MongoDataSource": {
     "host": "localhost",
     "port": 27017,
-    "url": "",
+    "url": "mongodb://dbadmin:Abc123.@cluster0-shard-00-00-ghdbm.mongodb.net:27017,cluster0-shard-00-01-ghdbm.mongodb.net:27017,cluster0-shard-00-02-ghdbm.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true",
     "database": "EstimatorDB",
     "password": "abc123",
     "name": "MongoDataSource",

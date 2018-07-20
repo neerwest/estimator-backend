@@ -35,6 +35,39 @@
     },
     "project_end": {
       "type": "date"
+    },
+    "reviewer": {
+      "type": "string",
+      "required": true
+    },
+    "resources": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "no_developers": {
+      "type": "number",
+      "required": true
+    },
+    "risk_value": {
+      "type": "string",
+      "required": true
+    },
+    "efficiency_ratio": {
+      "type": "number",
+      "required": true
+    },
+    "category": {
+      "type": "string",
+      "required": true
+    },
+    "logo_url": {
+      "type": "string"
+    },
+    "daily_working_hours": {
+      "type": "number",
+      "required": true
     }
   },
   "validations": [],
@@ -42,6 +75,22 @@
     "client": {
       "type": "belongsTo",
       "model": "Client",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "components": {
+      "type": "hasMany",
+      "model": "Component",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "teams": {
+      "type": "hasMany",
+      "model": "Team",
       "foreignKey": "",
       "options": {
         "nestRemoting": true

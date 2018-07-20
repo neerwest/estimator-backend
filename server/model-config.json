@@ -42,5 +42,17 @@
   "Project": {
     "dataSource": "MongoDataSource",
     "public": true
+  },
+  "Team": {
+    "dataSource": "MongoDataSource",
+    "public": true
+  },
+  "Component": {
+    "dataSource": "MongoDataSource",
+    "public": true
+  },
+  "Phase": {
+    "dataSource": "MongoDataSource",
+    "public": true
   }
 }
