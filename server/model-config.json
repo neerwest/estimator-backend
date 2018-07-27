@@ -14,25 +14,25 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "MongoDataSource"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "MongoDataSource",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "MongoDataSource",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "MongoDataSource",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "MongoDataSource",
     "public": false
   },
   "Client": {
