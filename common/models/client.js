@@ -2,8 +2,8 @@
 
 module.exports = function(Client) {
 
-    Client.disableRemoteMethodByName("upsert");
-    Client.disableRemoteMethodByName("find");
+    //Client.disableRemoteMethodByName("upsert");
+    //Client.disableRemoteMethodByName("find");
     Client.disableRemoteMethodByName("replaceOrCreate");
     Client.disableRemoteMethodByName("prototype.updateAttributes");
     Client.disableRemoteMethodByName("exists");
@@ -25,7 +25,7 @@ module.exports = function(Client) {
     Client.disableRemoteMethodByName("count");
     Client.disableRemoteMethodByName("findOne");
     Client.disableRemoteMethodByName("resetPassword");
-    Client.disableRemoteMethodByName("update");
+    //Client.disableRemoteMethodByName("update");
     Client.disableRemoteMethodByName("upsertWithWhere"); 
 
 };
