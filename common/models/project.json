@@ -63,7 +63,8 @@
       "required": true
     },
     "logo_url": {
-      "type": "string"
+      "type": "string",
+      "default": "http://via.placeholder.com/350x150"
     },
     "daily_working_hours": {
       "type": "number",
