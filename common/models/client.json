@@ -1,7 +1,7 @@
 {
   "name": "Client",
   "plural": "clients",
-  "base": "User",
+  "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
