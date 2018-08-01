@@ -2,11 +2,11 @@
 
 module.exports = function(Team) {
 
-    Team.disableRemoteMethodByName("upsert");
-    Team.disableRemoteMethodByName("find");
+    //Team.disableRemoteMethodByName("upsert");
+    T//eam.disableRemoteMethodByName("find");
     Team.disableRemoteMethodByName("replaceOrCreate");
-    Team.disableRemoteMethodByName("create");
-    Team.disableRemoteMethodByName("prototype.updateAttributes");
+    //Team.disableRemoteMethodByName("create");
+    //Team.disableRemoteMethodByName("prototype.updateAttributes");
     Team.disableRemoteMethodByName("exists");
     Team.disableRemoteMethodByName('prototype.__get__component');
     Team.disableRemoteMethodByName('prototype.__get__component__teams');
@@ -25,7 +25,7 @@ module.exports = function(Team) {
     Team.disableRemoteMethodByName("createChangeStream");
     Team.disableRemoteMethodByName("count");
     Team.disableRemoteMethodByName("findOne");
-    Team.disableRemoteMethodByName("update");
+    //Team.disableRemoteMethodByName("update");
     Team.disableRemoteMethodByName("upsertWithWhere");
 
 };

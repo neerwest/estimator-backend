@@ -2,8 +2,8 @@
 
 module.exports = function(Component) {
 
-    Component.disableRemoteMethodByName("upsert");
-    Component.disableRemoteMethodByName("find");
+    //Component.disableRemoteMethodByName("upsert");
+    //Component.disableRemoteMethodByName("find");
     Component.disableRemoteMethodByName("replaceOrCreate");
     Component.disableRemoteMethodByName("create");
     Component.disableRemoteMethodByName("prototype.updateAttributes");
@@ -14,8 +14,8 @@ module.exports = function(Component) {
     Component.disableRemoteMethodByName('prototype.__count__teams');
     Component.disableRemoteMethodByName("createChangeStream");
     Component.disableRemoteMethodByName("count");
-    Component.disableRemoteMethodByName("findOne");
-    Component.disableRemoteMethodByName("update");
+    //Component.disableRemoteMethodByName("findOne");
+    //Component.disableRemoteMethodByName("update");
     Component.disableRemoteMethodByName("upsertWithWhere");
 
 };
