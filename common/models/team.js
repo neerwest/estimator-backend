@@ -3,7 +3,7 @@
 module.exports = function(Team) {
 
     //Team.disableRemoteMethodByName("upsert");
-    T//eam.disableRemoteMethodByName("find");
+    //Team.disableRemoteMethodByName("find");
     Team.disableRemoteMethodByName("replaceOrCreate");
     //Team.disableRemoteMethodByName("create");
     //Team.disableRemoteMethodByName("prototype.updateAttributes");
