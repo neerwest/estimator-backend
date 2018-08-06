@@ -40,5 +40,6 @@
   },
   "validations": [],
   "relations": {},
+  "acls": [],
   "methods": {}
 }
