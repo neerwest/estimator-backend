@@ -13,7 +13,7 @@
     },
     "created_at": {
       "type": "date",
-      "required": true
+      "required": false
     },
     "version": {
       "type": "string",
@@ -68,7 +68,7 @@
     },
     "daily_working_hours": {
       "type": "number",
-      "required": true
+      "required": false
     }
   },
   "validations": [],
