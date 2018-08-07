@@ -12,5 +12,12 @@
     "name": "MongoDataSource",
     "user": "EstimatorAdmin",
     "connector": "mongodb"
+  },
+  "estimator-estorage": {
+    "name": "estimator-estorage",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./server/storage",
+    "nameConflict": "makeUnique"
   }
 }
