@@ -1,9 +1,10 @@
 'use strict';
 
 module.exports = function(Project) {
+    /*
     //Project.disableRemoteMethodByName("upsert");
     //Project.disableRemoteMethodByName("find");
-    Project.disableRemoteMethodByName("replaceOrCreate");
+    //Project.disableRemoteMethodByName("replaceOrCreate");
     //Project.disableRemoteMethodByName("create");
     //Project.disableRemoteMethodByName("prototype.updateAttributes");
     Project.disableRemoteMethodByName("exists");    
@@ -24,4 +25,5 @@ module.exports = function(Project) {
     Project.disableRemoteMethodByName("findOne");
     //Project.disableRemoteMethodByName("update");
     Project.disableRemoteMethodByName("upsertWithWhere");
+    */
 };
