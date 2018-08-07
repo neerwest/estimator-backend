@@ -44,7 +44,7 @@
       "type": [
         "string"
       ],
-      "required": true
+      "required": false
     },
     "no_developers": {
       "type": "number",
