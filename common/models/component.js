@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = function(Component) {
-
+    /*
     //Component.disableRemoteMethodByName("upsert");
     //Component.disableRemoteMethodByName("find");
     Component.disableRemoteMethodByName("replaceOrCreate");
@@ -17,5 +17,5 @@ module.exports = function(Component) {
     //Component.disableRemoteMethodByName("findOne");
     //Component.disableRemoteMethodByName("update");
     Component.disableRemoteMethodByName("upsertWithWhere");
-
+    */
 };
