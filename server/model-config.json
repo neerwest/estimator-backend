@@ -43,10 +43,6 @@
     "dataSource": "MongoDataSource",
     "public": true
   },
-  "Team": {
-    "dataSource": "MongoDataSource",
-    "public": true
-  },
   "Component": {
     "dataSource": "MongoDataSource",
     "public": true
@@ -61,6 +57,10 @@
   },
   "Container": {
     "dataSource": "estimator-estorage",
+    "public": true
+  },
+  "TeamMember": {
+    "dataSource": "MongoDataSource",
     "public": true
   }
 }

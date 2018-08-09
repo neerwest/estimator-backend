@@ -96,6 +96,14 @@
       "options": {
         "nestRemoting": true
       }
+    },
+    "teamMembers": {
+      "type": "hasMany",
+      "model": "TeamMember",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
     }
   },
   "acls": [],

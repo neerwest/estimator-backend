@@ -18,6 +18,10 @@
       "type": "number",
       "required": true
     },
+    "week_number": {
+      "type": "number",
+      "default": 0
+    },
     "analysis_and_design_hours": {
       "type": "number",
       "required": true

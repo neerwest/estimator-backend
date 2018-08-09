@@ -1,5 +1,6 @@
 {
-  "name": "Team",
+  "name": "TeamMember",
+  "plural": "teammembers",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -10,11 +11,17 @@
       "type": "string",
       "required": true
     },
-    "resources": {
-      "type": [
-        "string"
-      ],
+    "role": {
+      "type": "string",
       "required": true
+    },
+    "week_hours": {
+      "type": "number",
+      "default": 0
+    },
+    "cost": {
+      "type": "number",
+      "default": 0
     }
   },
   "validations": [],
