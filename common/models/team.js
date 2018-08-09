@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = function(Team) {
-
+    /*
     //Team.disableRemoteMethodByName("upsert");
     //Team.disableRemoteMethodByName("find");
     Team.disableRemoteMethodByName("replaceOrCreate");
@@ -27,5 +27,5 @@ module.exports = function(Team) {
     Team.disableRemoteMethodByName("findOne");
     //Team.disableRemoteMethodByName("update");
     Team.disableRemoteMethodByName("upsertWithWhere");
-
+    */
 };
