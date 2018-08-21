@@ -48,7 +48,13 @@
     },
     "no_developers": {
       "type": "number",
-      "required": true
+      "required": true,
+      "default": 0
+    },
+    "no_sprints": {
+      "type": "number",
+      "required": true,
+      "default": 0
     },
     "risk_value": {
       "type": "string",
