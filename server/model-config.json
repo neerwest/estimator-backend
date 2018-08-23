@@ -66,5 +66,9 @@
   "PhaseTeamMember": {
     "dataSource": "MongoDataSource",
     "public": true
+  },
+  "PhaseMember": {
+    "dataSource": "MongoDataSource",
+    "public": true
   }
 }
