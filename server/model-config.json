@@ -70,5 +70,13 @@
   "PhaseMember": {
     "dataSource": "MongoDataSource",
     "public": true
+  },
+  "Books": {
+    "dataSource": "MongoDataSource",
+    "public": true
+  },
+  "authors": {
+    "dataSource": "MongoDataSource",
+    "public": true
   }
 }
