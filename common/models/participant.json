@@ -1,28 +1,22 @@
 {
-  "name": "Books",
-  "plural": "Books",
+  "name": "Participant",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "ISBN": {
+    "id": {
       "type": "string",
       "required": true
     },
-    "title": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "authors": {
-      "type": [
-        "string"
-      ],
-      "required": true,
-      "default": [
-        0
-      ]
+    "role": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],

@@ -1,125 +1,22 @@
 {
   "name": "Project",
-  "plural": "projects",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
+    "id": {
+      "type": "string",
+      "required": true
+    },
     "name": {
       "type": "string",
       "required": true
-    },
-    "created_at": {
-      "type": "date",
-      "required": false
-    },
-    "version": {
-      "type": "string",
-      "required": true
-    },
-    "admin": {
-      "type": "string",
-      "required": true
-    },
-    "billing_model": {
-      "type": "string",
-      "required": true
-    },
-    "review_date": {
-      "type": "date"
-    },
-    "project_start": {
-      "type": "date"
-    },
-    "project_end": {
-      "type": "date"
-    },
-    "reviewer": {
-      "type": "string",
-      "required": true
-    },
-    "resources": {
-      "type": [
-        "string"
-      ],
-      "required": false
-    },
-    "no_developers": {
-      "type": "number",
-      "required": true,
-      "default": 0
-    },
-    "no_sprints": {
-      "type": "number",
-      "required": true,
-      "default": 0
-    },
-    "risk_value": {
-      "type": "string",
-      "required": true
-    },
-    "efficiency_ratio": {
-      "type": "number",
-      "required": true
-    },
-    "category": {
-      "type": "string",
-      "required": true
-    },
-    "logo_url": {
-      "type": "string",
-      "default": "http://via.placeholder.com/350x150"
-    },
-    "daily_working_hours": {
-      "type": "number",
-      "required": false
     }
   },
   "validations": [],
-  "relations": {
-    "client": {
-      "type": "belongsTo",
-      "model": "Client",
-      "foreignKey": "",
-      "options": {
-        "nestRemoting": true
-      }
-    },
-    "components": {
-      "type": "hasMany",
-      "model": "Component",
-      "foreignKey": "",
-      "options": {
-        "nestRemoting": true
-      }
-    },
-    "teams": {
-      "type": "hasMany",
-      "model": "Team",
-      "foreignKey": "",
-      "options": {
-        "nestRemoting": true
-      }
-    },
-    "teamMembers": {
-      "type": "hasMany",
-      "model": "TeamMember",
-      "foreignKey": "",
-      "options": {
-        "nestRemoting": true
-      }
-    },
-    "phases": {
-      "type": "hasMany",
-      "model": "Phase",
-      "foreignKey": "",
-      "options": {
-        "nestRemoting": true
-      }
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }

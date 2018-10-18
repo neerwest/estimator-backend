@@ -39,18 +39,6 @@
     "dataSource": "MongoDataSource",
     "public": true
   },
-  "Project": {
-    "dataSource": "MongoDataSource",
-    "public": true
-  },
-  "Component": {
-    "dataSource": "MongoDataSource",
-    "public": true
-  },
-  "Phase": {
-    "dataSource": "MongoDataSource",
-    "public": true
-  },
   "EstimatorUser": {
     "dataSource": "MongoDataSource",
     "public": true
@@ -59,24 +47,28 @@
     "dataSource": "estimator-estorage",
     "public": true
   },
-  "TeamMember": {
-    "dataSource": "MongoDataSource",
+  "Participant": {
+    "dataSource": "db",
     "public": true
   },
-  "PhaseTeamMember": {
-    "dataSource": "MongoDataSource",
+  "Project": {
+    "dataSource": "db",
     "public": true
   },
-  "PhaseMember": {
-    "dataSource": "MongoDataSource",
+  "Stack": {
+    "dataSource": "db",
     "public": true
   },
-  "Books": {
-    "dataSource": "MongoDataSource",
+  "Component": {
+    "dataSource": "db",
     "public": true
   },
-  "authors": {
-    "dataSource": "MongoDataSource",
+  "Phase": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Phase_Breakdown": {
+    "dataSource": "db",
     "public": true
   }
 }

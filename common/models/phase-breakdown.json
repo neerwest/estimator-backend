@@ -1,19 +1,25 @@
 {
-  "name": "authors",
-  "plural": "authors",
+  "name": "Phase_Breakdown",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "author_id": {
-      "type": "number",
-      "required": true,
-      "default": 0
-    },
-    "name": {
+    "id": {
       "type": "string",
+      "required": true
+    },
+    "phase_id": {
+      "type": "string",
+      "required": true
+    },
+    "participant_id": {
+      "type": "string",
+      "required": true
+    },
+    "hours": {
+      "type": "number",
       "required": true
     }
   },
