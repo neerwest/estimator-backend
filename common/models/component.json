@@ -6,52 +6,33 @@
     "validateUpsert": true
   },
   "properties": {
-    "description": {
+    "id": {
       "type": "string",
       "required": true
     },
-    "estimate_assumptions_notes": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "complexity": {
+    "estimated_hours": {
       "type": "number",
       "required": true
     },
-    "week_number": {
-      "type": "number",
-      "default": 0
-    },
-    "analysis_and_design_hours": {
+    "estimated_hours_plus_margin": {
       "type": "number",
       "required": true
     },
-    "development_hours": {
+    "perc_total": {
       "type": "number",
       "required": true
     },
-    "cost_per_hour": {
+    "days": {
       "type": "number",
       "required": true
-    },
-    "father_component": {
-      "type": "string"
-    },
-    "sprint": {
-      "type": "string"
-    },
-    "dev": {
-      "type": "string"
     }
   },
   "validations": [],
-  "relations": {
-    "project": {
-      "type": "belongsTo",
-      "model": "Project",
-      "foreignKey": ""
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }

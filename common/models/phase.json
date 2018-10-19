@@ -6,66 +6,21 @@
     "validateUpsert": true
   },
   "properties": {
+    "id": {
+      "type": "string",
+      "required": true
+    },
     "name": {
       "type": "string",
       "required": true
     },
-    "notes": {
-      "type": "string"
-    },
-    "breakdown_perc_dev": {
-      "type": "number",
-      "required": true
-    },
-    "total_hours": {
-      "type": "number",
-      "required": true
-    },
-    "padding": {
-      "type": "number",
-      "required": true
-    },
-    "phi": {
-      "type": "number",
-      "required": true
-    },
-    "margin": {
-      "type": "number",
-      "required": true
-    },
-    "margin_hours": {
+    "dev_perc": {
       "type": "number",
       "required": true
     }
   },
   "validations": [],
-  "relations": {
-    "project": {
-      "type": "belongsTo",
-      "model": "Project",
-      "foreignKey": "",
-      "options": {
-        "nestRemoting": true
-      }
-    },
-    "teamMembers": {
-      "type": "hasMany",
-      "model": "TeamMember",
-      "foreignKey": "",
-      "options": {
-        "nestRemoting": true
-      },
-      "through": "PhaseTeamMember"
-    },
-    "phaseMembers": {
-      "type": "hasMany",
-      "model": "PhaseMember",
-      "foreignKey": "",
-      "options": {
-        "nestRemoting": true
-      }
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }

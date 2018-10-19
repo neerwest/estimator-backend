@@ -1,19 +1,26 @@
 {
-  "name": "PhaseMember",
-  "plural": "phasemembers",
+  "name": "Stack",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
+    "id": {
+      "type": "string",
+      "required": true
+    },
     "name": {
       "type": "string",
       "required": true
     },
-    "hours": {
+    "safety_margin": {
       "type": "number",
-      "default": 0
+      "required": true
+    },
+    "total_development_effort": {
+      "type": "number",
+      "required": true
     }
   },
   "validations": [],
