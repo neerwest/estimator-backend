@@ -16,7 +16,32 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "client": {
+      "type": "belongsTo",
+      "model": "Client",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "components": {
+      "type": "hasMany",
+      "model": "Component",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "stacks": {
+      "type": "hasMany",
+      "model": "Stack",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
