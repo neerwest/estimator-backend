@@ -32,6 +32,14 @@
       "options": {
         "nestRemoting": true
       }
+    },
+    "participants": {
+      "type": "hasMany",
+      "model": "Participant",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
     }
   },
   "acls": [],
