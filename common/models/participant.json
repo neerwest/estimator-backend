@@ -20,11 +20,13 @@
     },
     "cost_hour": {
       "type": "number",
-      "required": true
+      "required": true,
+      "default": 0
     },
     "hours_week": {
       "type": "number",
-      "required": true
+      "required": true,
+      "default": 0
     }
   },
   "validations": [],
