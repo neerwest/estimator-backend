@@ -17,6 +17,14 @@
     "role": {
       "type": "string",
       "required": true
+    },
+    "costHour": {
+      "type": "number",
+      "required": true
+    },
+    "hoursWeek": {
+      "type": "number",
+      "required": true
     }
   },
   "validations": [],
