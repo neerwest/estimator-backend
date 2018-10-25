@@ -48,27 +48,27 @@
     "public": true
   },
   "Participant": {
-    "dataSource": "db",
+    "dataSource": "MongoDataSource",
     "public": true
   },
   "Project": {
-    "dataSource": "db",
+    "dataSource": "MongoDataSource",
     "public": true
   },
   "Stack": {
-    "dataSource": "db",
+    "dataSource": "MongoDataSource",
     "public": true
   },
   "Component": {
-    "dataSource": "db",
+    "dataSource": "MongoDataSource",
     "public": true
   },
   "Phase": {
-    "dataSource": "db",
+    "dataSource": "MongoDataSource",
     "public": true
   },
   "Phase_Breakdown": {
-    "dataSource": "db",
+    "dataSource": "MongoDataSource",
     "public": true
   }
 }
