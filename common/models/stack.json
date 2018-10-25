@@ -16,7 +16,8 @@
     },
     "total_development_effort": {
       "type": "number",
-      "required": true
+      "required": false,
+      "default": 0
     }
   },
   "validations": [],
