@@ -36,6 +36,14 @@
       "options": {
         "nestRemoting": true
       }
+    },
+    "componentStacks": {
+      "type": "hasMany",
+      "model": "ComponentStack",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
     }
   },
   "acls": [],

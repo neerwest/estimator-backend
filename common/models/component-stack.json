@@ -1,0 +1,23 @@
+{
+  "name": "ComponentStack",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "hours": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "stack_id": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

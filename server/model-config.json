@@ -70,5 +70,9 @@
   "Phase_Breakdown": {
     "dataSource": "MongoDataSource",
     "public": true
+  },
+  "ComponentStack": {
+    "dataSource": "MongoDataSource",
+    "public": true
   }
 }
