@@ -40,6 +40,14 @@
       "options": {
         "nestRemoting": true
       }
+    },
+    "phases": {
+      "type": "hasMany",
+      "model": "Phase",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
     }
   },
   "acls": [],
