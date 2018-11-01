@@ -1,6 +1,6 @@
 {
   "name": "PhaseStack",
-  "plural": "n",
+  "plural": "phaseStacks",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
