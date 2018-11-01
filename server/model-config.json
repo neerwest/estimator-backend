@@ -67,11 +67,11 @@
     "dataSource": "MongoDataSource",
     "public": true
   },
-  "Phase_Breakdown": {
+  "ComponentStack": {
     "dataSource": "MongoDataSource",
     "public": true
   },
-  "ComponentStack": {
+  "PhaseStack": {
     "dataSource": "MongoDataSource",
     "public": true
   }

@@ -1,22 +1,20 @@
 {
-  "name": "Phase_Breakdown",
+  "name": "PhaseStack",
+  "plural": "n",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "phase_id": {
+    "stack_id": {
       "type": "string",
       "required": true
     },
-    "participant_id": {
-      "type": "string",
-      "required": true
-    },
-    "hours": {
+    "dev_perc": {
       "type": "number",
-      "required": true
+      "required": true,
+      "default": 0
     }
   },
   "validations": [],
