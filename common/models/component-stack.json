@@ -17,7 +17,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "stack": {
+      "type": "belongsTo",
+      "model": "Stack",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
