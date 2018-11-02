@@ -9,22 +9,6 @@
     "name": {
       "type": "string",
       "required": true
-    },
-    "estimated_hours": {
-      "type": "number",
-      "required": true
-    },
-    "estimated_hours_plus_margin": {
-      "type": "number",
-      "required": true
-    },
-    "perc_total": {
-      "type": "number",
-      "required": true
-    },
-    "days": {
-      "type": "number",
-      "required": true
     }
   },
   "validations": [],
