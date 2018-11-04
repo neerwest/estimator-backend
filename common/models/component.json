@@ -12,7 +12,7 @@
     },
     "perc_of_total": {
       "name": {
-        "type": "string",
+        "type": "number",
         "required": false,
         "default": 0
       }
