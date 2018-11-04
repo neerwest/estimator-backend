@@ -14,7 +14,7 @@
       "type": "number",
       "required": true
     },
-    "total_development_effort": {
+    "total_dev_effort": {
       "type": "number",
       "required": false,
       "default": 0
