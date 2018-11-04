@@ -18,6 +18,11 @@
       "type": "number",
       "required": false,
       "default": 0
+    },
+    "comparative_total": {
+      "type": "number",
+      "required": false,
+      "default": 0
     }
   },
   "validations": [],
