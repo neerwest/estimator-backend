@@ -11,6 +11,11 @@
       "required": true,
       "default": 0
     },
+    "perc_of_total": {
+      "type": "number",
+      "required": false,
+      "default": 0
+    },
     "stackId": {
       "type": "string",
       "required": true
