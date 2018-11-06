@@ -6,6 +6,11 @@
     "validateUpsert": true
   },
   "properties": {
+    "name": {
+      "type": "string",
+      "required": false,
+      "default": "No name component"
+    },
     "hours": {
       "type": "number",
       "required": true,
