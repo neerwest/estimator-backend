@@ -41,4 +41,20 @@ module.exports = function(Component) {
         next();
     });
 
+    Component.afterRemote('deleteById', function(ctx, modelInstance, next) {
+        var componentId = ctx.args.id;
+        var app = Component.app;
+        var ComponentStack = app.models.ComponentStack;
+
+        ComponentStack.find({where: {componentId: componentId} }, function  (err, models) {
+
+            models.forEach( elem => {
+                ComponentStack.destroyById(elem.id, function(mod){ console.log(mod) });
+            });
+
+        });
+
+        next();
+    });
+
 };
