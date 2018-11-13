@@ -33,5 +33,13 @@
     }
   },
   "acls": [],
-  "methods": {}
+  "methods": {
+    "updateArray": {
+      "accepts": [
+        {"arg": "data", "type": "array"}
+      ],
+      "returns": { "arg": "data", "type": "string"},
+      "http": {"verb": "put", "path": "/updateArray"}
+    }
+  }
 }
